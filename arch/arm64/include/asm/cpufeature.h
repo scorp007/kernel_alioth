@@ -535,6 +535,7 @@ static inline int arm64_get_ssbd_state(void)
 
 void arm64_set_ssbd_mitigation(bool state);
 
+extern int do_emulate_mrs(struct pt_regs *regs, u32 sys_reg, u32 rt);
 #endif /* __ASSEMBLY__ */
 
 #endif
