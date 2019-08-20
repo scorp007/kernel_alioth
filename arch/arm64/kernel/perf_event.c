@@ -29,6 +29,7 @@
 #include <linux/of.h>
 #include <linux/perf/arm_pmu.h>
 #include <linux/platform_device.h>
+#include <linux/smp.h>
 
 static DEFINE_PER_CPU(bool, perf_event_is_hotplugging);
 
