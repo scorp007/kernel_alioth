@@ -31,6 +31,7 @@
 #include <asm/fpsimd.h>
 #include <asm/mmu_context.h>
 #include <asm/processor.h>
+#include <asm/smp.h>
 #include <asm/sysreg.h>
 #include <asm/traps.h>
 #include <asm/virt.h>
